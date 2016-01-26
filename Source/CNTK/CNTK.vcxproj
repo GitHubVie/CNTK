@@ -21,12 +21,12 @@
   <Choose>
     <When Condition="'$(Configuration)|$(Platform)'=='Debug_CpuOnly|x64' Or '$(Configuration)|$(Platform)'=='Release_CpuOnly|x64'">
       <PropertyGroup>
-          <UsesCuda>true</UsesCuda>
+          <UsesCuda>false</UsesCuda>
       </PropertyGroup>
     </When>
     <Otherwise>
       <PropertyGroup>
-          <UsesCuda>false</UsesCuda>
+          <UsesCuda>true</UsesCuda>
       </PropertyGroup>
     </Otherwise>
   </Choose>

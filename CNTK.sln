@@ -699,6 +699,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EvalWrapper", "Source\Exten
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSEvalClient", "Source\Extensibility\CSEvalClient\CSEvalClient.csproj", "{41E11A59-62B2-4927-A4F8-F40B1B612C6C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EF766CAE-9CB1-494C-9153-0030631A6340} = {EF766CAE-9CB1-494C-9153-0030631A6340}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
